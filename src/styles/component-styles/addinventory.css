@@ -1,5 +1,113 @@
-.add-inventory{
-    background-color: antiquewhite;
-    height: 100vh;
+.inv-entry{
+    background: var(--on-secondary-container);
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+form{
+    padding: 20px 20px;
+    transition: all ease-in;
+}
 
+.notice{
+    background: var(--error-container) ;
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    transform: translateY(20%);
+}
+#notice-message{
+    font-size: var(--body-font-size);
+    font-weight: 400;
+    color: var(--on-error-container);
+}
+/* .drug_name{
+    
+} */
+#dname{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.drug{
+    width: 100%;
+    height: 2.8rem;
+    background: var(--on-primary );
+    border: 0;
+    border-radius: 7px;
+    padding: 0 10px;
+    font-size: var(--label-font-size);
+    letter-spacing: var(--label-letter-spacing);
+    color: black;
+    font-weight: 500;
+}
+.inv-category{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    width: 100%;
+    padding-top: 10px;
+}
+.Category{
+    flex: 1;
+}
+.Quantity{
+    flex: 1;
+}
+.cat{
+    width: 100%;
+    height: 2.8rem;
+    background: var(--on-primary);
+    border: 0;
+    border-radius: 7px;
+    padding: 0 10px;
+    font-size: var(--label-font-size);
+    color: black;
+    font-weight: 500;
+}
+.quant{
+    width: 100%;
+    height: 2.8rem;
+    background: var(--on-primary);
+    border: 0;
+    border-radius: 7px;
+    padding: 0 10px;
+    font-size: var(--label-font-size);
+    color: black;
+    font-weight: 500;
+}
+.inv-desc{
+    gap: 5rem;
+    width: 100%;
+    padding-top: 10px;
+}
+.desc{
+    width: 100%;
+    display: block;
+    background: var(--on-primary);
+    border: 0;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: var(--label-font-size);
+    font-family: var(--body-font-family);
+    color: black;
+    font-weight: 500;
+}
+.inv-btn{
+    width: 100%;
+    height: 3rem;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 7px;
+    color: black;
+    background: var(--yellow);
+}
+.inv-btn:hover{
+    background-color: #dbb838;
+    cursor: pointer;
 }

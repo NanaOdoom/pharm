@@ -1,34 +1,134 @@
 {
-    "drugs": [
-        {
-            "id": 1,
-            "drugName": "Acetaminophen",
-            "description": "Commonly known as paracetamol, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
-            "quantity": 23,
-            "category": ["pain killer"],
-            "buyerId": 2,
-            "date": "Sun 19th May 2024",
-            "time": ""
-        },
-        {
-            "id": 2,
-            "drugName": "Adderall",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
-            "quantity": 230,
-            "category": ["stimulant"],
-            "buyerId": 4,
-            "date": "Mon 29th February 2024",
-            "time": ""
-        },
-        {
-            "id": 3,
-            "drugName": "Ativan",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
-            "quantity": 7,
-            "category": ["benzodiazepines"],
-            "buyerId": 30,
-            "date": "Wed 6th January 2024",
-            "time": ""
-        }
-    ]
+  "drugs": [
+    {
+      "id": "1",
+      "drugName": "Acetaminophen",
+      "description": "Commonly known as paracetamol, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
+      "quantity": 23,
+      "category": [
+        "pain killer"
+      ],
+      "buyerId": 2,
+      "date": "Sun 19th May 2024",
+      "time": ""
+    },
+    {
+      "id": "2",
+      "drugName": "Adderall",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
+      "quantity": 230,
+      "category": [
+        "stimulant"
+      ],
+      "buyerId": 4,
+      "date": "Mon 29th February 2024",
+      "time": ""
+    },
+    {
+      "id": "3",
+      "drugName": "Ativan",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
+      "quantity": 7,
+      "category": [
+        "benzodiazepines"
+      ],
+      "buyerId": 30,
+      "date": "Wed 6th January 2024",
+      "time": ""
+    },
+    {
+      "id": "4b7d",
+      "drugName": "Drug",
+      "quantity": "5",
+      "category": "Category",
+      "desc": "This is just an example",
+      "date": "2024-06-20T21:29:19.957Z"
+    },
+    {
+      "id": "d57c",
+      "drugName": "Drug",
+      "quantity": "5",
+      "category": "Category",
+      "desc": "This is another trial",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "775c",
+      "drugName": "Trial Drug",
+      "quantity": "5",
+      "category": "Trial Category",
+      "desc": "Another Trial",
+      "date": "2024-06-20",
+      "time": 1718920093032
+    },
+    {
+      "id": "ca06",
+      "drugName": "Drug",
+      "quantity": "5",
+      "category": "Cate",
+      "desc": "Desc",
+      "date": "2024-06-20",
+      "time": "1718920161955"
+    },
+    {
+      "id": "a4f5",
+      "drugName": "Drug",
+      "quantity": "5",
+      "category": "Cate",
+      "desc": "Trial for the time changes",
+      "date": "2024-06-20",
+      "time": "1,718,920,600,954"
+    },
+    {
+      "id": "c48c",
+      "drugName": "qwertyui",
+      "quantity": "5",
+      "category": "asdfghjkl",
+      "desc": "zxcvbnm",
+      "date": "2024-06-20",
+      "time": null
+    },
+    {
+      "id": "bf5f",
+      "drugName": "qwertyuii",
+      "quantity": "5",
+      "category": "asdfghjkl;",
+      "desc": "zxcvbnm,",
+      "date": "2024-06-20",
+      "time": "NaN"
+    },
+    {
+      "id": "5040",
+      "drugName": "qwertyu",
+      "quantity": "4",
+      "category": "sdfghj",
+      "desc": "zxcvbnm",
+      "date": "2024-06-20",
+      "time": "Invalid Date"
+    },
+    {
+      "id": "7f4c",
+      "drugName": "Para",
+      "quantity": "3",
+      "category": "Pain Killer",
+      "desc": "Trials",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "5229",
+      "drugName": "Viagara",
+      "quantity": "19",
+      "category": "Stimulant",
+      "desc": "To make life harder",
+      "date": "2024-06-23"
+    },
+    {
+      "id": "37a1",
+      "drugName": "Paracetamol",
+      "quantity": "45",
+      "category": "Pain killer",
+      "desc": "Pain alleviation",
+      "date": "2024-06-23"
+    }
+  ]
 }
